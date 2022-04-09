@@ -422,5 +422,22 @@ main{
 }
 .footer .main-footer .footer-row ul li a:hover{
   text-decoration: underline;
-
+}
+.footer .logo{
+  height: 80px;
+  /* border: 2px solid red; */
+  display: block;
+  flex-direction: center;
+  text-align: center;
+  align-items: center;
+  background-color: #232f3e;
+}
+.footer .line{
+  border-bottom: 1.6px solid #232f3ee3;
+}
+.footer .logo img{
+  /* border: 2px solid green; */
+  width: 90px;
+  margin: 30px 0;
+  cursor: pointer;
 }
