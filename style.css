@@ -323,6 +323,10 @@ main{
   color: grey;
 }
 
+.section-2 .section-b .unorder-list .order-list img{
+  cursor: pointer;
+}
+
 /* Home-decore */
 
 .home-decore{
