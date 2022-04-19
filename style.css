@@ -410,7 +410,6 @@ main{
   font-weight: 500;
   letter-spacing: 1px;
   margin-bottom: 20px;
-  /* border: 2px solid black; */
 }
 .footer .main-footer .footer-row ul li{
   list-style: none;
@@ -443,4 +442,64 @@ main{
   width: 90px;
   margin: 30px 0;
   cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  .container .row-1{
+    display: none;
+    text-align: center;
+  }
+  .container .row-2{
+    display: none;
+  }
+  .slideshow-container .mySlides img{
+    height: 50vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+  }
+  .boxes{
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    text-align: center;
+  }
+  .home-decore .inside-decore .heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+  }
+  .home-decore .inside-decore .heading h2{
+    margin: 1rem;
+  }
+  .main-footer{
+    display: flex;
+    flex-direction: column;
+  }
+  .main-footer .footer-row{
+    /* border: 2px solid black; */
+    /* margin: auto; */
+    margin-bottom: 1rem;
+  }
+  .main-footer .footer-row h3{
+    /* border: 2px solid black; */
+    margin-bottom: 0;
+    background-color: #007185;
+    padding:.5rem;
+    border-radius: 7px;
+    cursor: pointer;
+  }
 }
